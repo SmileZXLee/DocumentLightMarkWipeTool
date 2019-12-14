@@ -62,7 +62,7 @@ def visitDirFiles(org_input_dir,org_output_dir,recursion_dir):
                 target_dirname = os.path.dirname(target_path) 
                 if not os.path.exists(target_dirname):
                     mkdir(target_dirname)
-                img_deal(path,target_path)
+                imgDeal(path,target_path)
 
 #创建文件夹
 def mkdir(path):
@@ -75,14 +75,14 @@ def mkdir(path):
         return False
 
 #图片处理
-def img_deal(img_path,save_path):
+def imgDeal(img_path,save_path):
     img = Image.open(img_path)
     img = levelsDeal(img,108,164)
     img_res = Image.fromarray(img.astype('uint8'))
     print(u'图片[' + img_path + u']处理完毕')
     img_res.save(save_path)
 
-#色阶处理
+#图像矩阵处理
 def levelsDeal(img, black,white):
     if white > 255:
         white = 255
