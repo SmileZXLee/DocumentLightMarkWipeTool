@@ -21,4 +21,4 @@ pip install pillow
 
 处理前 | 处理后   
 -|-
-![](http://www.zxlee.cn/github/DocumentLightMarkWipeTool/DocumentLightMarkWipeToolDemo2.jpg) | ![](http://www.zxlee.cn/github/DocumentLightMarkWipeTool/DocumentLightMarkWipeToolDemo3.jpg) |
+![](http://www.zxlee.cn/github/DocumentLightMarkWipeTool/DocumentLightMarkWipeToolDemo4.jpg) | ![](http://www.zxlee.cn/github/DocumentLightMarkWipeTool/DocumentLightMarkWipeToolDemo3.jpg) |
